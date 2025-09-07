@@ -20,6 +20,17 @@ sudo apt update
 sudo apt install linux-tools-generic
 ```
 
+or on WSL2:
+
+``` bash
+wget https://mirrors.edge.kernel.org/pub/linux/kernel/tools/perf/<perf-version>.tar.gz
+tar -xzvf perf-<version>.tar.gz
+cd perf-<version>/tools/perf
+make -j
+./perf --version
+sudo make install
+```
+
 * python packages: numpy, pandas
 
 ## example program

@@ -22,7 +22,7 @@ cache-references,cache-misses,\
 LLC-loads,LLC-load-misses,LLC-stores,LLC-store-misses,\
 L1-dcache-loads,L1-dcache-load-misses,L1-dcache-stores,\
 dTLB-loads,dTLB-load-misses,\
-mem_inst_retired.all_loads,mem_inst_retired.all_stores,\
+# mem_inst_retired.all_loads,mem_inst_retired.all_stores,\
 fp_arith_inst_retired.scalar_single,fp_arith_inst_retired.scalar_double,\
 fp_arith_inst_retired.128b_packed_single,fp_arith_inst_retired.128b_packed_double,\
 fp_arith_inst_retired.256b_packed_single,fp_arith_inst_retired.256b_packed_double,\

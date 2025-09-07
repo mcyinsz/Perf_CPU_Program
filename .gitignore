@@ -2,3 +2,6 @@
 *.csv
 *generated
 *GeMM
+*perf-6.9.0
+*.txt
+*.gz
